@@ -1,0 +1,106 @@
+.sidebar-text {
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  text-align: center;
+  font-family: "Futura";
+  font-size: large;
+}
+
+
+/* todo */
+.todo-view {
+  width: 1600px;
+  padding: 20px;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.todo-panel {
+  height: 800px;
+  width: 450px;
+  padding: 20px;
+  background-color:white;
+  overflow: 'auto';
+}
+
+.todo-form {
+  padding: 10px;
+  padding-top: 150px;
+  height: 600px;
+  width: 450px;
+}
+
+.todo-item {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.todo-button {
+  text-align: center;
+}
+
+.date-font {
+  color: dimgray;
+  font-weight: 600;  
+}
+
+.todo-date {
+  text-align: center;
+}
+
+.todo-date svg{
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+
+.todo-item:hover {
+  background-color: aliceblue;
+}
+
+.todo-button-frame {
+  text-align: center;
+}
+
+
+
+.todo-time-text {
+  /* font-family: "Tahoma"; */
+  text-align: center;
+  font-weight: 600;
+}
+
+
+/* calender */
+.calendar-view {
+  padding: 50px;
+  padding-left: 100px;
+  width: 1500px;
+}
+
+.calendar-card {
+  padding: 30px;
+}
+
+.events {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.events .ant-badge-status {
+  width: 100%;
+  overflow: hidden;
+  font-size: 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.notes-month {
+  font-size: 28px;
+  text-align: center;
+}
+.notes-month section {
+  font-size: 28px;
+}
